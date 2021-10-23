@@ -21,14 +21,14 @@ namespace nstl {
         };
 
         template< typename Iterator, typename Compare >
-        Iterator get_next(Iterator first, Iterator last, Compare compare) {
-            auto pred = first;
-            while(first != last && compare(*pred, *(first))) {
-                pred = first;
-                first++;
+        Iterator get_next(Iterator begin, Iterator end, Compare compare) {
+            auto pred = begin;
+            while(begin != end && compare(*pred, *(begin))) {
+                pred = begin;
+                begin++;
             }
 
-            return first;
+            return begin;
         }
 
         template< typename Iterator, typename Compare >
