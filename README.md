@@ -20,6 +20,28 @@ int main(int argc, char* argv[]) {
 
 ```
 
+Output:
+```
+new partition
+1
+1
+1
+new partition
+3
+new partition
+4
+new partition
+5
+5
+new partition
+6
+6
+new partition
+10
+```
+
+
+
 Split string to tokens
 ```cpp
 std::string v = "abc asdf wer asdfk";
@@ -30,3 +52,4 @@ for(const auto p :
     std::cout << std::string(p.begin(), p.end()) << std::endl;
 }
 ```
+
