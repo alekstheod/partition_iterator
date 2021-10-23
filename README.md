@@ -1,5 +1,5 @@
-partition iterator is a library that help to iterate the partitions, created either by std::partition or
-by std::sort functions, in an easy way
+When I cam across with a need to iterate over the partitioned array, either throug the std::partition or std::sort. I realized that there is nothing in stl that can simplify my task. So I decided to write a small library for doing so.
+
 
 Iterate over partitions (trivial case)
 ```cpp
