@@ -23,6 +23,7 @@ int main(int argc, char* argv[]) {
 ```
 
 Output:
+
 ```
 new partition
 1
@@ -42,8 +43,6 @@ new partition
 10
 ```
 
-
-
 Split string to tokens
 
 ```cpp
@@ -56,3 +55,9 @@ for(const auto p :
 }
 ```
 
+Output:
+
+abc
+asdf
+wer
+asdfk
