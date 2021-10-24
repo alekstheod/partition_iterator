@@ -1,4 +1,5 @@
 #include <iterator>
+#include <algorithm>
 
 namespace nstl {
     namespace detail {
@@ -25,7 +26,7 @@ namespace nstl {
             auto pred = begin;
             while(begin != end && compare(*pred, *(begin))) {
                 pred = begin;
-                begin++;
+                ++begin;
             }
 
             return begin;
